@@ -18,7 +18,7 @@ console.log(gameName.indexOf('g'));
 const newString = gameName.substring(0, 4)
 console.log(newString);
 
-const anotherString = gameName.slice(-7, 4)
+const anotherString = gameName.slice(-7, -4)
 console.log(anotherString);
 
 const newStringOne = "    hitesh    "
@@ -32,3 +32,9 @@ console.log(url.replace('%20' , '-'))
 console.log(url.includes('uchiha'));
 
 console.log(gameName.split('-'));
+
+const str1 = 'aaryan';
+const str2 = 'parmar';
+
+console.log(str1.concat(' ', str2));
+
