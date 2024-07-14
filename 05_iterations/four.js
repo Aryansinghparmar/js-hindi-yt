@@ -6,13 +6,13 @@ const myObject = {
 }
 
 for (const key in myObject) {
-  // console.log(`${key} shortcut is for ${myObject[key]}`);
+  // console.log(`${key} is shortcut for ${myObject[key]}`);
 }
 
 const programmming = ["js", "rb", "py", "java", "cpp"]
 
-for (const key in programmming) {
- //  console.log(programmming[key]);
+ for (const key in programmming) {
+//   console.log(programmming[key]);
 }
 
 // const map = new Map()

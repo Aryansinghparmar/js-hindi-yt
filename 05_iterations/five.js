@@ -33,6 +33,6 @@ const myCoding = [
     },
 ]
 
-myCoding.forEach( (item) => {
-    console.log(item.languageName);
-})
+// myCoding.forEach( (item) => {
+//     console.log(item.languageName);
+// })

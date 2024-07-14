@@ -1,10 +1,10 @@
-// const coding = ["js", "ruby", "java", "python", "cpp"]
+const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// const values = coding.forEach( (item) => {
+const values = coding.forEach( (item) => {
 //  console.log(item);
 // return item  
 
-// })
+})
 
 
 // console.log(values);
@@ -46,4 +46,4 @@ const books = [
     return bk.publish >= 1995 && bk.genre === 'History'
 } )
 
-  console.log(userBooks);
+  // console.log(userBooks);
